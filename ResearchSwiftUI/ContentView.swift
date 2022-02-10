@@ -4,31 +4,37 @@
 //
 //  Created by Elaine Lannon on 2/9/22.
 //
+//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+		VStack{
             Button (action: {
                 //action
             }, label: {
-                Image("recognize")
+				Image("recognize").resizable().frame(width: 100, height: 100, alignment: .center);
+				Text("Recognize")
             })
             Button (action: {
                 //action
             }, label: {
-                Image("respond")
+				Image("respond").resizable().frame(width: 100, height: 100, alignment: .center);
+				Text("Respond    ")
             })
             Button (action: {
                 //action
             }, label: {
-                Image("refer")
+				Image("refer").resizable().frame(width: 100, height: 100, alignment: .center);
+				Text("Refer          ")
+				
             })
             Button (action: {
                 //action
             }, label: {
-                Image("resources")
+				Image("resources").resizable().frame(width: 100, height: 100, alignment: .center);
+				Text("Resources")
             })
         }
         

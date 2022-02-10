@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "respond_button.png",
+      "filename" : "respond_button@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "respond_button@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "respond_button@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
