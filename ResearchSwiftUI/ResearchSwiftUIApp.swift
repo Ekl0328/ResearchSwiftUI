@@ -11,7 +11,7 @@ import SwiftUI
 struct ResearchSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MentalHealthView()
         }
     }
 }

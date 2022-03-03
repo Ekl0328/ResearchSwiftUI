@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		694C74A027B4CD1E00AADE87 /* ResearchSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C749F27B4CD1E00AADE87 /* ResearchSwiftUIApp.swift */; };
-		694C74A227B4CD1E00AADE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C74A127B4CD1E00AADE87 /* ContentView.swift */; };
+		694C74A227B4CD1E00AADE87 /* MentalHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C74A127B4CD1E00AADE87 /* MentalHealthView.swift */; };
 		694C74A427B4CD1F00AADE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694C74A327B4CD1F00AADE87 /* Assets.xcassets */; };
 		694C74A727B4CD1F00AADE87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694C74A627B4CD1F00AADE87 /* Preview Assets.xcassets */; };
+		87237A8A27D06A6D00CEB277 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87237A8927D06A6D00CEB277 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		694C749C27B4CD1E00AADE87 /* ResearchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694C749F27B4CD1E00AADE87 /* ResearchSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchSwiftUIApp.swift; sourceTree = "<group>"; };
-		694C74A127B4CD1E00AADE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		694C74A127B4CD1E00AADE87 /* MentalHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthView.swift; sourceTree = "<group>"; };
 		694C74A327B4CD1F00AADE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		694C74A627B4CD1F00AADE87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87237A8927D06A6D00CEB277 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				694C749F27B4CD1E00AADE87 /* ResearchSwiftUIApp.swift */,
-				694C74A127B4CD1E00AADE87 /* ContentView.swift */,
+				694C74A127B4CD1E00AADE87 /* MentalHealthView.swift */,
+				87237A8927D06A6D00CEB277 /* Tab.swift */,
 				694C74A327B4CD1F00AADE87 /* Assets.xcassets */,
 				694C74A527B4CD1F00AADE87 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				694C74A227B4CD1E00AADE87 /* ContentView.swift in Sources */,
+				87237A8A27D06A6D00CEB277 /* Tab.swift in Sources */,
+				694C74A227B4CD1E00AADE87 /* MentalHealthView.swift in Sources */,
 				694C74A027B4CD1E00AADE87 /* ResearchSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
