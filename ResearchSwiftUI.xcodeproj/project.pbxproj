@@ -12,6 +12,7 @@
 		694C74A427B4CD1F00AADE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694C74A327B4CD1F00AADE87 /* Assets.xcassets */; };
 		694C74A727B4CD1F00AADE87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694C74A627B4CD1F00AADE87 /* Preview Assets.xcassets */; };
 		87237A8A27D06A6D00CEB277 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87237A8927D06A6D00CEB277 /* Tab.swift */; };
+		876F4FF427D11D0200084D89 /* LearningDisabilitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876F4FF327D11D0200084D89 /* LearningDisabilitesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		694C74A327B4CD1F00AADE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		694C74A627B4CD1F00AADE87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87237A8927D06A6D00CEB277 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		876F4FF327D11D0200084D89 /* LearningDisabilitesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningDisabilitesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				694C749F27B4CD1E00AADE87 /* ResearchSwiftUIApp.swift */,
 				694C74A127B4CD1E00AADE87 /* MentalHealthView.swift */,
+				876F4FF327D11D0200084D89 /* LearningDisabilitesView.swift */,
 				87237A8927D06A6D00CEB277 /* Tab.swift */,
 				694C74A327B4CD1F00AADE87 /* Assets.xcassets */,
 				694C74A527B4CD1F00AADE87 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876F4FF427D11D0200084D89 /* LearningDisabilitesView.swift in Sources */,
 				87237A8A27D06A6D00CEB277 /* Tab.swift in Sources */,
 				694C74A227B4CD1E00AADE87 /* MentalHealthView.swift in Sources */,
 				694C74A027B4CD1E00AADE87 /* ResearchSwiftUIApp.swift in Sources */,

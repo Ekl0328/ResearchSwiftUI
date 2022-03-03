@@ -12,14 +12,12 @@ extension Color{
 	static let psuBlue = Color(red: 30/255, green: 64/255, blue: 124/255)
 }
 struct MentalHealthView: View {
-	@State var isSoundOn: Bool = true
     var body: some View {
 		VStack(){
 			ZStack(){
-				Text("LionHELP").fontWeight(.heavy).bold().font(.system(size: 70)).frame(width: 450, height: 110, alignment: .bottom).foregroundColor(.white).background(Color.psuBlue).ignoresSafeArea();
+				Text("LionHELP").fontWeight(.heavy).bold().font(.system(size: 75)).frame(width: 450, height: 110, alignment: .bottom).foregroundColor(.white).background(Color.psuBlue).ignoresSafeArea();
 			}
 			Image("Behrend");
-			Spacer().frame(width: .infinity, height: 10, alignment: .center);
             Button (action: {
                 //action
             }, label: {

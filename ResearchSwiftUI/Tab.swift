@@ -13,8 +13,8 @@ struct Tab: View {
 			MentalHealthView().tabItem{
 				Text("Mental Health")
 			}
-			Text("Learning Disabilities goes here").foregroundColor(.psuBlue).tabItem{
-				Text("Learning Disabilities").bold()
+			LearningDisabilitesView().tabItem{
+				Text("Learning Disabilities")
 			}
 		}
     }
